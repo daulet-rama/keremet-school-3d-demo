@@ -1,0 +1,71 @@
+{
+  "slot": "paving",
+  "id": "PavingStones099",
+  "source": "ambientCG",
+  "page": "https://ambientcg.com/a/PavingStones099",
+  "author": "ambientCG",
+  "license": "CC0 1.0",
+  "dims": [
+    2,
+    2
+  ],
+  "avgColor": "#898983",
+  "avgRough": 0.531,
+  "note": "Светло-серая бетонная тротуарная плитка (двойное Т), чистая; в API размер 200x200 см. AO в архиве нет. Ромбов/квадратов в светло-серой чистой версии не нашлось.",
+  "files": {
+    "c": {
+      "512": {
+        "path": "assets/tex/paving/c-512.webp",
+        "bytes": 24208,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/paving/c-1024.webp",
+        "bytes": 132826,
+        "w": 1024,
+        "h": 1024
+      },
+      "2048": {
+        "path": "assets/tex/paving/c-2048.webp",
+        "bytes": 766276,
+        "w": 2048,
+        "h": 2048
+      }
+    },
+    "n": {
+      "512": {
+        "path": "assets/tex/paving/n-512.webp",
+        "bytes": 30340,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/paving/n-1024.webp",
+        "bytes": 256978,
+        "w": 1024,
+        "h": 1024
+      },
+      "2048": {
+        "path": "assets/tex/paving/n-2048.webp",
+        "bytes": 1709866,
+        "w": 2048,
+        "h": 2048
+      }
+    },
+    "arm": {
+      "512": {
+        "path": "assets/tex/paving/arm-512.webp",
+        "bytes": 10144,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/paving/arm-1024.webp",
+        "bytes": 39932,
+        "w": 1024,
+        "h": 1024
+      }
+    }
+  }
+}

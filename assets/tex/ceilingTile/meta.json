@@ -1,0 +1,59 @@
+{
+  "slot": "ceilingTile",
+  "id": "OfficeCeiling001",
+  "source": "ambientCG",
+  "page": "https://ambientcg.com/a/OfficeCeiling001",
+  "author": "ambientCG",
+  "license": "CC0 1.0",
+  "dims": [
+    3.85,
+    3.85
+  ],
+  "avgColor": "#f5f5f5",
+  "avgRough": 0.693,
+  "note": "Подвесной потолок Армстронг, сетка 6x6 плит, шаг около 0.64 м (чтобы шаг стал ровно 0.6 м, можно взять dims 3.6). Без светильников и решёток.",
+  "files": {
+    "c": {
+      "512": {
+        "path": "assets/tex/ceilingTile/c-512.webp",
+        "bytes": 2936,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/ceilingTile/c-1024.webp",
+        "bytes": 6616,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "n": {
+      "512": {
+        "path": "assets/tex/ceilingTile/n-512.webp",
+        "bytes": 62642,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/ceilingTile/n-1024.webp",
+        "bytes": 347760,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "arm": {
+      "512": {
+        "path": "assets/tex/ceilingTile/arm-512.webp",
+        "bytes": 47094,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/ceilingTile/arm-1024.webp",
+        "bytes": 254676,
+        "w": 1024,
+        "h": 1024
+      }
+    }
+  }
+}

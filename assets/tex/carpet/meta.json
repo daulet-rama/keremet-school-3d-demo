@@ -1,0 +1,59 @@
+{
+  "slot": "carpet",
+  "id": "Carpet016",
+  "source": "ambientCG",
+  "page": "https://ambientcg.com/a/Carpet016",
+  "author": "ambientCG",
+  "license": "CC0 1.0",
+  "dims": [
+    1.7,
+    1.7
+  ],
+  "avgColor": "#cac8c5",
+  "avgRough": 0.649,
+  "note": "Короткий петельный ворс, светлый. Исходный цвет бежево-хаки (#bcb093) обесцвечен (saturation 0.12, brightness 1.12) для чистой подкраски в фиолетовый; оригинал сохранён в .assets-src/carpet. Размер повтора 1.7 м — данные ambientCG.",
+  "files": {
+    "c": {
+      "512": {
+        "path": "assets/tex/carpet/c-512.webp",
+        "bytes": 39968,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/carpet/c-1024.webp",
+        "bytes": 141420,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "n": {
+      "512": {
+        "path": "assets/tex/carpet/n-512.webp",
+        "bytes": 123336,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/carpet/n-1024.webp",
+        "bytes": 516932,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "arm": {
+      "512": {
+        "path": "assets/tex/carpet/arm-512.webp",
+        "bytes": 24028,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/carpet/arm-1024.webp",
+        "bytes": 130248,
+        "w": 1024,
+        "h": 1024
+      }
+    }
+  }
+}

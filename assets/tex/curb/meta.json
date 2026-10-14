@@ -1,0 +1,59 @@
+{
+  "slot": "curb",
+  "id": "Concrete034",
+  "source": "ambientCG",
+  "page": "https://ambientcg.com/a/Concrete034",
+  "author": "ambientCG",
+  "license": "CC0 1.0",
+  "dims": [
+    1.1,
+    1.1
+  ],
+  "avgColor": "#b8b8b8",
+  "avgRough": 0.518,
+  "note": "Гладкий светло-серый бетон (след опалубки едва заметен). Исходник 2:1 (110x55 см по API) сложен дважды по вертикали в квадрат 2048x2048 = 1.1x1.1 м, потому что мировые UV в builder.js масштабируют U и V одним числом (dims[0]). AO в архиве нет. Повтор заметен на больших площадях; для бордюров, цоколя, ступеней приемлемо.",
+  "files": {
+    "c": {
+      "512": {
+        "path": "assets/tex/curb/c-512.webp",
+        "bytes": 10842,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/curb/c-1024.webp",
+        "bytes": 57740,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "n": {
+      "512": {
+        "path": "assets/tex/curb/n-512.webp",
+        "bytes": 50386,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/curb/n-1024.webp",
+        "bytes": 227638,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "arm": {
+      "512": {
+        "path": "assets/tex/curb/arm-512.webp",
+        "bytes": 19758,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/curb/arm-1024.webp",
+        "bytes": 60794,
+        "w": 1024,
+        "h": 1024
+      }
+    }
+  }
+}

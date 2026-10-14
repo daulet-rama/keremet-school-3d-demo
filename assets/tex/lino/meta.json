@@ -1,0 +1,71 @@
+{
+  "slot": "lino",
+  "id": "laminate_floor_02",
+  "source": "Poly Haven",
+  "page": "https://polyhaven.com/a/laminate_floor_02",
+  "author": "Dario Barresi (processing), Charlotte Baglioni (photography)",
+  "license": "CC0 1.0",
+  "dims": [
+    1.7,
+    1.7
+  ],
+  "avgColor": "#9c8164",
+  "avgRough": 0.378,
+  "note": "Ламинат под дуб, серо-бежевые доски с тонкими швами, чистый, матово-сатиновый. Пол классов.",
+  "files": {
+    "c": {
+      "512": {
+        "path": "assets/tex/lino/c-512.webp",
+        "bytes": 19084,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/lino/c-1024.webp",
+        "bytes": 121744,
+        "w": 1024,
+        "h": 1024
+      },
+      "2048": {
+        "path": "assets/tex/lino/c-2048.webp",
+        "bytes": 772786,
+        "w": 2048,
+        "h": 2048
+      }
+    },
+    "n": {
+      "512": {
+        "path": "assets/tex/lino/n-512.webp",
+        "bytes": 5840,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/lino/n-1024.webp",
+        "bytes": 68574,
+        "w": 1024,
+        "h": 1024
+      },
+      "2048": {
+        "path": "assets/tex/lino/n-2048.webp",
+        "bytes": 458452,
+        "w": 2048,
+        "h": 2048
+      }
+    },
+    "arm": {
+      "512": {
+        "path": "assets/tex/lino/arm-512.webp",
+        "bytes": 10836,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/lino/arm-1024.webp",
+        "bytes": 65218,
+        "w": 1024,
+        "h": 1024
+      }
+    }
+  }
+}

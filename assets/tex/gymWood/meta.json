@@ -1,0 +1,71 @@
+{
+  "slot": "gymWood",
+  "id": "WoodFloor066A",
+  "source": "ambientCG",
+  "page": "https://ambientcg.com/a/WoodFloor066A",
+  "author": "ambientCG",
+  "license": "CC0 1.0",
+  "dims": [
+    2,
+    2
+  ],
+  "avgColor": "#e3b572",
+  "avgRough": 0.469,
+  "note": "Светлый клён/бук, узкие паркетные планки (около 6 см), лак. Размер повтора в ambientCG не указан: оценка 2 м. Разметка поверх отдельно.",
+  "files": {
+    "c": {
+      "512": {
+        "path": "assets/tex/gymWood/c-512.webp",
+        "bytes": 8884,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/gymWood/c-1024.webp",
+        "bytes": 35976,
+        "w": 1024,
+        "h": 1024
+      },
+      "2048": {
+        "path": "assets/tex/gymWood/c-2048.webp",
+        "bytes": 171274,
+        "w": 2048,
+        "h": 2048
+      }
+    },
+    "n": {
+      "512": {
+        "path": "assets/tex/gymWood/n-512.webp",
+        "bytes": 9994,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/gymWood/n-1024.webp",
+        "bytes": 82832,
+        "w": 1024,
+        "h": 1024
+      },
+      "2048": {
+        "path": "assets/tex/gymWood/n-2048.webp",
+        "bytes": 753526,
+        "w": 2048,
+        "h": 2048
+      }
+    },
+    "arm": {
+      "512": {
+        "path": "assets/tex/gymWood/arm-512.webp",
+        "bytes": 11184,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/gymWood/arm-1024.webp",
+        "bytes": 53708,
+        "w": 1024,
+        "h": 1024
+      }
+    }
+  }
+}

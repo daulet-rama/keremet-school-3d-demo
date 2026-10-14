@@ -1,0 +1,59 @@
+{
+  "slot": "fabric",
+  "id": "Fabric036",
+  "source": "ambientCG",
+  "page": "https://ambientcg.com/a/Fabric036",
+  "author": "ambientCG",
+  "license": "CC0 1.0",
+  "dims": [
+    0.4,
+    0.4
+  ],
+  "avgColor": "#bababa",
+  "avgRough": 0.832,
+  "note": "Нейтральная светлая серая ткань типа рогожки/льна (цвет строго серый, без оттенка) для подкраски в синий/оранжевый/жёлтый. Исходная карта цвета была 1-канальной, переведена в RGB без изменения яркости. AO сильный (ткацкий рисунок) — aoMapIntensity лучше ~0.5. dims 0.4 — оценка по плотности нитей (у ambientCG размер не указан).",
+  "files": {
+    "c": {
+      "512": {
+        "path": "assets/tex/fabric/c-512.webp",
+        "bytes": 38734,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/fabric/c-1024.webp",
+        "bytes": 157410,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "n": {
+      "512": {
+        "path": "assets/tex/fabric/n-512.webp",
+        "bytes": 135540,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/fabric/n-1024.webp",
+        "bytes": 657460,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "arm": {
+      "512": {
+        "path": "assets/tex/fabric/arm-512.webp",
+        "bytes": 121026,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/fabric/arm-1024.webp",
+        "bytes": 547692,
+        "w": 1024,
+        "h": 1024
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta name="robots" content="noindex, nofollow" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Интеллектуальная школа «Керемет» — Шымкент</title>
+  <meta name="description" content="Частная школа «Керемет» в Шымкенте (мкр. Асар, 911/2): обучение на казахском и русском, методики НИШ и РФМШ, бесплатные кружки, продлённый день, горячее питание. 3D-прогулка по школе." />
+  <meta name="theme-color" content="#0B0F2B" />
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <!-- постер первого кадра — сразу и с высоким приоритетом (на медленной сети иначе стоит в очереди за скриптами) -->
+  <link rel="preload" as="image" href="./poster/hero-wide.webp" type="image/webp" media="(min-width: 761px)" fetchpriority="high" />
+  <link rel="preload" as="image" href="./poster/hero-m.webp" type="image/webp" media="(max-width: 760px)" fetchpriority="high" />
+  <script type="module" crossorigin src="./assets/index-Bqr_JK68.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Bw3mun_D.css">
+</head>
+<body>
+  <a class="skip" href="#about" data-go="about">Перейти к содержанию</a>
+
+  <canvas id="scene" aria-hidden="true"></canvas>
+  <!-- постер первого кадра (scripts/poster.mjs): виден, пока грузится 3D -->
+  <div class="poster" aria-hidden="true"></div>
+  <div class="loadpill" aria-hidden="true"><span></span><b><i></i></b></div>
+
+  <header class="topbar">
+    <a class="brand" href="#" data-go="hero" aria-label="Keremet">
+      <span class="brand__tile"><svg viewBox="0 0 100 100" aria-hidden="true" class="emblem"><circle cx="50" cy="50" r="48" fill="#463794"/><circle cx="50" cy="50" r="43" fill="none" stroke="#FEC909" stroke-width="3"/><path d="M50 56 Q37 46 24 50 L24 76 Q37 72 50 81 Q63 72 76 76 L76 50 Q63 46 50 56Z" fill="#fff"/><path d="M50 56 V81" stroke="#463794" stroke-width="1.6"/><path fill="#FEC909" d="M50 17l3.1 6.4 7 1-5 4.9 1.2 7-6.3-3.3-6.3 3.3 1.2-7-5-4.9 7-1z"/><path fill="#FEC909" d="M29 28l2 4.1 4.5.7-3.3 3.2.8 4.5-4-2.1-4 2.1.8-4.5-3.3-3.2 4.5-.7z"/><path fill="#FEC909" d="M71 28l2 4.1 4.5.7-3.3 3.2.8 4.5-4-2.1-4 2.1.8-4.5-3.3-3.2 4.5-.7z"/></svg></span>
+      <span class="brand__text"><b>KEREMET</b><small>мектебі · школа</small></span>
+    </a>
+    <nav class="nav" aria-label="Разделы"></nav>
+    <div class="tools">
+      <div class="lang" role="group" aria-label="Язык / Тіл">
+        <button data-lang="kz" aria-pressed="false">ҚАЗ</button>
+        <button data-lang="ru" aria-pressed="false">РУС</button>
+      </div>
+      <button class="mode-btn" data-mode-toggle><i data-ico="grid"></i><span class="mode-btn__t"></span></button>
+      <button class="btn btn--gold btn--s bar-cta" data-go="admission"><span data-t="nav.admission">Поступление</span><i data-ico="arrow-right" data-ico-cls="ico--arrow"></i></button>
+      <button class="menu-btn" aria-expanded="false" aria-controls="sheet" aria-label="Меню"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <!-- меню на телефоне и планшете (до 1199 px): полноэкранное, раскрывается кругом из бургера -->
+  <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Меню" inert>
+    <div class="sheet__panel">
+      <div class="sheet__head">
+        <span class="brand"><span class="brand__tile" data-emblem></span><span class="brand__text"><b>KEREMET</b></span></span>
+        <button class="sheet__close" aria-label="Закрыть"><i data-ico="close"></i></button>
+      </div>
+      <nav class="sheet__nav" aria-label="Разделы"></nav>
+      <div class="sheet__tools">
+        <div class="lang" role="group" aria-label="Язык / Тіл">
+          <button data-lang="kz" aria-pressed="false">ҚАЗ</button>
+          <button data-lang="ru" aria-pressed="false">РУС</button>
+        </div>
+        <button class="mode-btn" data-mode-toggle><i data-ico="grid"></i><span class="mode-btn__t"></span></button>
+        <a class="sheet__phone" href="tel:+77712424538"><i data-ico="phone"></i>+7 (771) 242-45-38</a>
+        <button class="btn btn--gold btn--l" data-go="admission"><span data-t="nav.admission">Поступление</span><i data-ico="arrow-right" data-ico-cls="ico--arrow"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <nav class="rail"></nav>
+  <div class="minimap" aria-hidden="true"></div>
+
+  <main id="panels"></main>
+
+  <div class="hint" aria-hidden="true"><span></span><i></i></div>
+  <p class="notice" hidden></p>
+
+  <!-- подвал обычной версии: содержимое рендерит ui.js (тексты KZ/RU из content.js) -->
+  <footer class="site-footer" data-theme="hero"></footer>
+
+  <div class="fade" aria-hidden="true"></div>
+
+  <div class="loader" role="status">
+    <svg viewBox="0 0 100 100" aria-hidden="true" class="emblem loader__emblem"><circle cx="50" cy="50" r="48" fill="#463794"/><circle cx="50" cy="50" r="43" fill="none" stroke="#FEC909" stroke-width="3"/><path d="M50 56 Q37 46 24 50 L24 76 Q37 72 50 81 Q63 72 76 76 L76 50 Q63 46 50 56Z" fill="#fff"/><path d="M50 56 V81" stroke="#463794" stroke-width="1.6"/><path fill="#FEC909" d="M50 17l3.1 6.4 7 1-5 4.9 1.2 7-6.3-3.3-6.3 3.3 1.2-7-5-4.9 7-1z"/><path fill="#FEC909" d="M29 28l2 4.1 4.5.7-3.3 3.2.8 4.5-4-2.1-4 2.1.8-4.5-3.3-3.2 4.5-.7z"/><path fill="#FEC909" d="M71 28l2 4.1 4.5.7-3.3 3.2.8 4.5-4-2.1-4 2.1.8-4.5-3.3-3.2 4.5-.7z"/></svg>
+    <p class="loader__text">Строим школу…</p>
+    <div class="loader__bar"><i></i></div>
+  </div>
+
+  <div id="track" aria-hidden="true"></div>
+
+  <noscript>
+    <div class="noscript">
+      <h1>Интеллектуальная школа «Керемет»</h1>
+      <p>г. Шымкент, Абайский район, мкр. Асар, 911/2 · <a href="tel:+77712424538">+7 (771) 242-45-38</a> · <a href="https://www.instagram.com/keremet_mektep_asar/">Instagram</a></p>
+    </div>
+  </noscript>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+{
+  "id": "kloofendal_48d_partly_cloudy_puresky",
+  "name": "Kloofendal 48d Partly Cloudy (Pure Sky)",
+  "source": "Poly Haven",
+  "page": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+  "author": "Greg Zaal (original), Jarod Guest (sky edits)",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "sunDir": [
+    0.55457,
+    0.74149,
+    0.37768
+  ],
+  "sunElevationDeg": 47.86,
+  "sunUV": [
+    0.59516,
+    0.76588
+  ],
+  "sunConvention": "three.js equirect: u = atan2(dir.z, dir.x)/(2*PI) + 0.5; v = asin(dir.y)/PI + 0.5 (v=0 is the bottom of the image)",
+  "notes": "Sky-only HDRI: lower hemisphere is a blurred mirror of the sky (no ground, no buildings). Sun peak luminance ~60000 (linear) in 1k HDR. Фон неба: только верхние 56% equirect (ниже — дымка в шейдере).",
+  "files": {
+    "pmrem": {
+      "path": "assets/sky/env-pmrem.hdr",
+      "bytes": 786506,
+      "w": 384,
+      "h": 512,
+      "clamp": 16
+    },
+    "bg8192": {
+      "path": "assets/sky/sky-top-8192.webp",
+      "bytes": 449052,
+      "w": 8192,
+      "h": 2294
+    },
+    "bg4096": {
+      "path": "assets/sky/sky-top-4096.webp",
+      "bytes": 162806,
+      "w": 4096,
+      "h": 1147
+    },
+    "bg2048": {
+      "path": "assets/sky/sky-top-2048.webp",
+      "bytes": 61942,
+      "w": 2048,
+      "h": 573
+    }
+  },
+  "bgTopFrac": 0.56,
+  "source1k": ".assets-src/sky/kloofendal_48d_partly_cloudy_puresky_1k.hdr (исходник, не публикуется; https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kloofendal_48d_partly_cloudy_puresky_1k.hdr)"
+}

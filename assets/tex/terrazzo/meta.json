@@ -1,0 +1,71 @@
+{
+  "slot": "terrazzo",
+  "id": "Tiles043",
+  "source": "ambientCG",
+  "page": "https://ambientcg.com/a/Tiles043",
+  "author": "ambientCG",
+  "license": "CC0 1.0",
+  "dims": [
+    2,
+    2
+  ],
+  "avgColor": "#d6dcdb",
+  "avgRough": 0.572,
+  "note": "Светлое терраццо-плитка: белая основа, мелкая тёмная крошка, сетка швов 8x8. Размер повтора в ambientCG не указан: оценка 2 м (плитка 25 см). AO нет в наборе (заполнено 1).",
+  "files": {
+    "c": {
+      "512": {
+        "path": "assets/tex/terrazzo/c-512.webp",
+        "bytes": 84124,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/terrazzo/c-1024.webp",
+        "bytes": 229826,
+        "w": 1024,
+        "h": 1024
+      },
+      "2048": {
+        "path": "assets/tex/terrazzo/c-2048.webp",
+        "bytes": 546024,
+        "w": 2048,
+        "h": 2048
+      }
+    },
+    "n": {
+      "512": {
+        "path": "assets/tex/terrazzo/n-512.webp",
+        "bytes": 13494,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/terrazzo/n-1024.webp",
+        "bytes": 105882,
+        "w": 1024,
+        "h": 1024
+      },
+      "2048": {
+        "path": "assets/tex/terrazzo/n-2048.webp",
+        "bytes": 480720,
+        "w": 2048,
+        "h": 2048
+      }
+    },
+    "arm": {
+      "512": {
+        "path": "assets/tex/terrazzo/arm-512.webp",
+        "bytes": 38290,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/terrazzo/arm-1024.webp",
+        "bytes": 137058,
+        "w": 1024,
+        "h": 1024
+      }
+    }
+  }
+}

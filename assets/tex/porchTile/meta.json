@@ -1,0 +1,59 @@
+{
+  "slot": "porchTile",
+  "id": "Tiles038",
+  "source": "ambientCG",
+  "page": "https://ambientcg.com/a/Tiles038",
+  "author": "ambientCG",
+  "license": "CC0 1.0",
+  "dims": [
+    1.8,
+    1.8
+  ],
+  "avgColor": "#b6b5b2",
+  "avgRough": 0.563,
+  "note": "Светло-серые бетонные плиты, тонкие швы. Исходник 2:1 (6x3 плиты, 110x55 см по API) сложен дважды по вертикали в квадрат 2048x2048 (6x6 плит), потому что мировые UV масштабируют U и V одним числом. dims увеличены до 1.8x1.8 м, плитка ~30 см (аутентично 1.1x1.1, плитка ~18 см). На двух плитках есть тонкие волосяные трещины, швы чуть желтоватые.",
+  "files": {
+    "c": {
+      "512": {
+        "path": "assets/tex/porchTile/c-512.webp",
+        "bytes": 39386,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/porchTile/c-1024.webp",
+        "bytes": 256848,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "n": {
+      "512": {
+        "path": "assets/tex/porchTile/n-512.webp",
+        "bytes": 65254,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/porchTile/n-1024.webp",
+        "bytes": 395802,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "arm": {
+      "512": {
+        "path": "assets/tex/porchTile/arm-512.webp",
+        "bytes": 24766,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/porchTile/arm-1024.webp",
+        "bytes": 106638,
+        "w": 1024,
+        "h": 1024
+      }
+    }
+  }
+}

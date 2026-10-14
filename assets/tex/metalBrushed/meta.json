@@ -1,0 +1,59 @@
+{
+  "slot": "metalBrushed",
+  "id": "Metal009",
+  "source": "ambientCG",
+  "page": "https://ambientcg.com/a/Metal009",
+  "author": "ambientCG",
+  "license": "CC0 1.0",
+  "dims": [
+    0.4,
+    0.4
+  ],
+  "avgColor": "#939598",
+  "avgRough": 0.47,
+  "note": "Шлифованная сталь/нержавейка, горизонтальный штрих (вдоль U), светло-серая, без пятен и ржавчины. Металличность = 1.0 везде (B-канал ARM = 255). dims 0.4 — оценка (у ambientCG размер не указан); для вытянутых деталей (ручки, ножки) штрих лучше направлять вдоль длинной оси через UV.",
+  "files": {
+    "c": {
+      "512": {
+        "path": "assets/tex/metalBrushed/c-512.webp",
+        "bytes": 10682,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/metalBrushed/c-1024.webp",
+        "bytes": 39408,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "n": {
+      "512": {
+        "path": "assets/tex/metalBrushed/n-512.webp",
+        "bytes": 2446,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/metalBrushed/n-1024.webp",
+        "bytes": 42314,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "arm": {
+      "512": {
+        "path": "assets/tex/metalBrushed/arm-512.webp",
+        "bytes": 26748,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/metalBrushed/arm-1024.webp",
+        "bytes": 98212,
+        "w": 1024,
+        "h": 1024
+      }
+    }
+  }
+}

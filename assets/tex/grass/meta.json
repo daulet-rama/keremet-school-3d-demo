@@ -1,0 +1,59 @@
+{
+  "slot": "grass",
+  "id": "Grass005",
+  "source": "ambientCG",
+  "page": "https://ambientcg.com/a/Grass005",
+  "author": "ambientCG",
+  "license": "CC0 1.0",
+  "dims": [
+    2,
+    2
+  ],
+  "avgColor": "#66842c",
+  "avgRough": 0.702,
+  "note": "Короткий ровный газон, свежая зелень, равномерный, без цветков и проплешин; размер повтора оценён по длине травинок (~1 мм/пиксель 2K), в API размер не указан.",
+  "files": {
+    "c": {
+      "512": {
+        "path": "assets/tex/grass/c-512.webp",
+        "bytes": 79496,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/grass/c-1024.webp",
+        "bytes": 341086,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "n": {
+      "512": {
+        "path": "assets/tex/grass/n-512.webp",
+        "bytes": 97874,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/grass/n-1024.webp",
+        "bytes": 502572,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "arm": {
+      "512": {
+        "path": "assets/tex/grass/arm-512.webp",
+        "bytes": 119560,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/grass/arm-1024.webp",
+        "bytes": 568060,
+        "w": 1024,
+        "h": 1024
+      }
+    }
+  }
+}

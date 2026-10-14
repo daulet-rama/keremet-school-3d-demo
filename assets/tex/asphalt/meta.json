@@ -1,0 +1,59 @@
+{
+  "slot": "asphalt",
+  "id": "Asphalt024A",
+  "source": "ambientCG",
+  "page": "https://ambientcg.com/a/Asphalt024A",
+  "author": "ambientCG",
+  "license": "CC0 1.0",
+  "dims": [
+    2,
+    2
+  ],
+  "avgColor": "#52514d",
+  "avgRough": 0.707,
+  "note": "Чистый тёмно-серый мелкозернистый асфальт без разметки и трещин; размер повтора оценён по зерну (~1 мм/пиксель 2K), в API размер не указан.",
+  "files": {
+    "c": {
+      "512": {
+        "path": "assets/tex/asphalt/c-512.webp",
+        "bytes": 28096,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/asphalt/c-1024.webp",
+        "bytes": 169986,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "n": {
+      "512": {
+        "path": "assets/tex/asphalt/n-512.webp",
+        "bytes": 84936,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/asphalt/n-1024.webp",
+        "bytes": 524642,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "arm": {
+      "512": {
+        "path": "assets/tex/asphalt/arm-512.webp",
+        "bytes": 35418,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/asphalt/arm-1024.webp",
+        "bytes": 215426,
+        "w": 1024,
+        "h": 1024
+      }
+    }
+  }
+}

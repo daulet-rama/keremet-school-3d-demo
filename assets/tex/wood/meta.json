@@ -1,0 +1,59 @@
+{
+  "slot": "wood",
+  "id": "silver_oak_veneer_01",
+  "source": "Poly Haven",
+  "page": "https://polyhaven.com/a/silver_oak_veneer_01",
+  "author": "Jenelle van Heerden",
+  "license": "CC0 1.0",
+  "dims": [
+    1,
+    1
+  ],
+  "avgColor": "#ddbf9f",
+  "avgRough": 0.563,
+  "note": "Светлый шпон (берёза/бук), мелкий ровный рисунок, бесшовный, 1x1 м. Для парт, столешниц, дверей, стеллажей; продольное волокно вдоль U.",
+  "files": {
+    "c": {
+      "512": {
+        "path": "assets/tex/wood/c-512.webp",
+        "bytes": 8638,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/wood/c-1024.webp",
+        "bytes": 29750,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "n": {
+      "512": {
+        "path": "assets/tex/wood/n-512.webp",
+        "bytes": 5460,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/wood/n-1024.webp",
+        "bytes": 21234,
+        "w": 1024,
+        "h": 1024
+      }
+    },
+    "arm": {
+      "512": {
+        "path": "assets/tex/wood/arm-512.webp",
+        "bytes": 20454,
+        "w": 512,
+        "h": 512
+      },
+      "1024": {
+        "path": "assets/tex/wood/arm-1024.webp",
+        "bytes": 74566,
+        "w": 1024,
+        "h": 1024
+      }
+    }
+  }
+}
